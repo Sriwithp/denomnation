@@ -98,7 +98,7 @@ class ManageHistory {
   addHistory(
       dateTime, iTotal, i2000, i500, i200, i100, i50, i20, i10, i5, i2, i1) {
     history.add({
-      "date": dateTime.toString().substring(0, 18),
+      "date": dateTime.toString().substring(0, 16),
       "total": iTotal,
       "2000": i2000,
       "500": i500,
